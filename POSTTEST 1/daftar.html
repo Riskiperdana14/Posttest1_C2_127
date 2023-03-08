@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Daftar</title>
+    <link rel="stylesheet" type="text/css" href="daftar.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Daftarkan akun anda !!</h1>
+    </header>
+
+    <form>
+      <table>
+        <h2>
+          Untuk meraih manfaat penuh dari aplikasi ini, jangan lewatkan
+          kesempatan untuk mendaftar! Isilah formulir di bawah ini dan mulailah
+          petualangan baru Anda sekarang juga :
+        </h2>
+        <tr>
+          <td>
+            <label><b>Nama :</b></label>
+          </td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label><b>Username </b></label>
+          </td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label><b>Password </b></label>
+          </td>
+          <td><input type="password" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label><b>Email </b></label>
+          </td>
+          <td><input type="email" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="number"><b>NIM :</b></label>
+          </td>
+          <td>
+            <input type="number" min="10" max="2109116127" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label><b>Angkatan </b></label>
+          </td>
+          <td>
+            <input type="radio" id="2019" name="angkatan" value="2020" />
+            <label>2019</label>
+            <input type="radio" id="2020" name="angkatan" value="2020" />
+            <label>2020</label>
+            <input type="radio" id="2021" name="angkatan" value="2021" />
+            <label>2021</label>
+            <input type="radio" id="2022" name="angkatan" value="2022" />
+            <label>2022</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label><b>Minat :</b></label>
+          </td>
+          <td>
+            <input
+              type="checkbox"
+              id="Pemrograman web"
+              name="minat[]"
+              value="Pemrograman Web"
+            />
+            <label>Pemrograman Web</label>
+            <input
+              type="checkbox"
+              id="data-mining"
+              name="minat[]"
+              value="Data Mining"
+            />
+            <label>Data Mining</label>
+            <input
+              type="checkbox"
+              id="keamanan-informasi"
+              name="minat[]"
+              value="Keamanan Informasi"
+            />
+            <label>Keamanan Informasi</label>
+            <input type="checkbox" id="pbo" name="minat[]" value="PBO" />
+            <label>PBO</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="kelas"><b>Kelas :</b></label>
+          </td>
+          <td>
+            <select id="kelas" name="kelas">
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Tanggal"><b>Tanggal Lahir:</b></label>
+          </td>
+          <td>
+            <input type="date" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="lampiran"><b>Lampiran</b></label>
+          </td>
+          <td><input type="file" id="lampiran" name="lampiran"></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="reset"><b>Reset data ?</b></label>
+          </td>
+          <td><input type="Reset" value="ya" /></td>
+        </tr>
+        <tr>
+        <td>
+          <label for="syarat-ketentuan">Saya menyetujui syarat dan ketentuan</label>
+          </b></label>
+        </td>
+        <td>
+          <input type="checkbox" id="syarat-ketentuan" name="syarat-ketentuan" required>
+        </td>
+        </tr>
+      </table>
+    </form>
+
+    <button onclick="alert('Terima kasih telah mengisi form!')">Kirim</button>
+  </body>
+
+  <footer>
+    <p>Hak Cipta &copy; Muhamad Riski Perdana Putra</p>
+  </footer>
+</html>
